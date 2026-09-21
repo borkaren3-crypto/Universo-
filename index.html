@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Un universo para ti 🌻</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- =====================================================
+         INTRO
+         ===================================================== -->
+
+    <section id="intro" class="intro">
+
+        <div class="intro-stars"></div>
+
+        <div class="intro-content">
+
+            <div class="intro-flower">
+                🌻
+            </div>
+
+            <p class="small-text">
+                HAY UN PEQUEÑO UNIVERSO
+            </p>
+
+            <h1>
+                HECHO
+                <br>
+                <span>PARA TI</span>
+            </h1>
+
+            <p class="intro-description">
+                Un pequeño universo lleno de flores,
+                estrellas y mensajes escondidos.
+            </p>
+
+            <button id="enterButton">
+                ENTRAR AL UNIVERSO
+                <span>✦</span>
+            </button>
+
+            <audio id="backgroundMusic" loop>
+                <source src="audio/cancion.mp3" type="audio/mpeg">
+            </audio>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         UNIVERSO
+         ===================================================== -->
+
+    <main id="universe" class="universe">
+
+        <!-- Nebulosas -->
+
+        <div class="nebula nebula-1"></div>
+        <div class="nebula nebula-2"></div>
+        <div class="nebula nebula-3"></div>
+        <div class="nebula nebula-4"></div>
+
+
+        <!-- Estrellas -->
+
+        <div id="stars"></div>
+
+
+        <!-- Estrellas grandes -->
+
+        <div class="bright-star star-1"></div>
+        <div class="bright-star star-2"></div>
+        <div class="bright-star star-3"></div>
+        <div class="bright-star star-4"></div>
+        <div class="bright-star star-5"></div>
+        <div class="bright-star star-6"></div>
+
+
+        <!-- Estrellas fugaces -->
+
+        <div class="shooting-star shooting-1"></div>
+        <div class="shooting-star shooting-2"></div>
+        <div class="shooting-star shooting-3"></div>
+
+
+        <!-- =================================================
+             ESCENA 3D
+             ================================================= -->
+
+        <div class="space-scene">
+
+
+            <!-- Órbitas decorativas -->
+
+            <div class="orbit orbit-1"></div>
+            <div class="orbit orbit-2"></div>
+            <div class="orbit orbit-3"></div>
+            <div class="orbit orbit-4"></div>
+
+
+            <!-- =================================================
+                 PLANETA CENTRAL
+                 ================================================= -->
+
+            <div class="planet-container">
+
+                <div class="planet-glow"></div>
+
+                <div class="planet">
+
+                    <div class="planet-light"></div>
+
+                    <div class="planet-crater crater-1"></div>
+                    <div class="planet-crater crater-2"></div>
+                    <div class="planet-crater crater-3"></div>
+                    <div class="planet-crater crater-4"></div>
+
+                </div>
+
+
+                <div class="planet-ring ring-back"></div>
+
+                <div class="planet-ring ring-middle"></div>
+
+                <div class="planet-ring ring-front"></div>
+
+            </div>
+
+
+            <!-- =================================================
+                 FLORES GENERADAS POR JAVASCRIPT
+                 ================================================= -->
+
+            <div id="flowers-container"></div>
+
+
+        </div>
+
+
+        <!-- =====================================================
+             TÍTULO
+             ===================================================== -->
+
+        <div class="universe-title">
+
+            <p>
+                UN PEQUEÑO UNIVERSO
+            </p>
+
+            <h2>
+                PARA ALGUIEN
+                <span>ESPECIAL</span>
+            </h2>
+
+            <div class="line"></div>
+
+            <small>
+                toca una flor para descubrir su mensaje
+            </small>
+
+        </div>
+
+
+        <!-- =====================================================
+             MENSAJE
+             ===================================================== -->
+
+        <div id="messageBox" class="message-box">
+
+            <button id="closeMessage" class="close">
+                ×
+            </button>
+
+            <div class="message-flower">
+                🌻
+            </div>
+
+            <p class="message-small">
+                ESTE MENSAJE ES PARA TI
+            </p>
+
+            <p id="messageText" class="message-text"></p>
+
+        </div>
+
+
+        <!-- Partículas -->
+
+        <div id="particles"></div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
